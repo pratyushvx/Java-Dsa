@@ -1,14 +1,9 @@
-
 import java.util.*;
-public class addone
-
-{
+public class addone{
 	public static void main(String[] args) {
 	    int s,size=0;
-		
-
-         Scanner sc=new Scanner (System.in);
-         System.out.println("Enter Size of Array");
+		Scanner sc=new Scanner (System.in);
+        System.out.println("Enter Size of Array");
         int n=sc.nextInt();
         int digit[]=new int[n];
         System.out.println("Enter element in Array");
